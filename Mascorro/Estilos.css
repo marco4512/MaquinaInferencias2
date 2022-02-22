@@ -1,0 +1,62 @@
+
+*{
+ overflow:hidden;
+ margin: 0;
+}
+h1{
+    color: white;
+    text-align: center;
+    
+}
+hr{
+    color: white;
+    
+}
+.ContPrinc{
+ text-align: center;
+ align-items: center;  
+ justify-content: center; 
+}
+body{
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(raindrops-g616fc1135_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+body::before{
+    content: "";
+    width: 100%;
+    background-repeat: repeat;
+    height: 800%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   background-color: black;
+   z-index: -1;
+   opacity: 0.4;
+}
+.Uno{
+    text-align: center;
+}
+.VER{
+    margin: 5px;
+}
+.Mamiferos{
+    margin: 5px;
+}
+.IMA{
+text-align: left; 
+padding: 50px;
+margin: 10px;
+background: rgba( 33, 84, 64, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
